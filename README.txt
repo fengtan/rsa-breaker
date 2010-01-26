@@ -24,14 +24,14 @@ The algorithm is based on Wiener's attack and is applicable if d<n^(1/4).
 **********************************************************************
 1)from compiled jar:
 --------------------
-$wget http://downloads.sourceforge.net/project/rsa-breaker/RSABreaker.jar
+$wget https://github.com/Fengtan/rsa-breaker/blob/master/dist/RSABreaker.jar
 
 execution:
   $java -jar RSABreaker.jar
 
-2)from svn sources:
+2)from sources:
 -------------------
-$svn co http://rsa-breaker.svn.sourceforge.net/svnroot/rsa-breaker rsa-breaker
+$git clone https://github.com/Fengtan/rsa-breaker.git rsa-breaker
 $cd  rsa-breaker/
 $javac src/*.java -d class/
 $jar cvfm dist/RSABreaker.jar MANIFEST.MF -C class/ .
