@@ -24,7 +24,7 @@ The algorithm is based on Wiener's attack and is applicable if d<n^(1/4).
 **********************************************************************
 1)from compiled jar:
 --------------------
-$wget https://github.com/Fengtan/rsa-breaker/blob/master/dist/RSABreaker.jar
+$wget https://github.com/Fengtan/rsa-breaker/raw/master/dist/RSABreaker.jar
 
 execution:
   $java -jar RSABreaker.jar
